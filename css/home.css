@@ -1,5 +1,5 @@
 .container {
-    max-width: 80%;
+    /* max-width: 80%; */
     padding: 0px;
 }
 
@@ -8,6 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
+    /* margin-top: 82px; */
     height: 80vh;
 }
 
@@ -44,7 +45,8 @@
     font-family: helvetica;
     color: #707070;
     line-height: 45px;
-    margin:69px 200px;
+    padding: 2em 0 !important;
+    /* margin:69px 0px; */
 }
 
 .projects {
@@ -114,27 +116,7 @@
     margin: 7px 0px;
 }
 
-.footer-class {
-    background-color: black;
-    height:580px;
-    margin-top: 152px;
-}
 
-.email {
-    color: #FFFFFF;
-    border: 0.35px ridge #FFFFFF;
-    font-size: 20px;
-    border-radius: 6px;
-    padding:20px 0px 20px 65px;
-    /* border-style:ridge; */
-    margin: 0px 400px 0px 0px
-}
-
-.touch {
-    color: #CBD0D3;
-    font-size: 20px;
-    margin-top: 15px;
-}
 
 .check {
     color: #61D038;
@@ -208,7 +190,7 @@ p {
 
 @media screen and (max-width: 1920px) {
     .container {
-        max-width: 80%;
+        /* max-width: 80%; */
         padding: 0px;
     }
 
@@ -253,7 +235,7 @@ p {
         font-family: helvetica;
         color: #707070;
         line-height: 45px;
-        margin:69px 150px;
+        /* margin:69px 0px; */
     }
     
     .projects {
@@ -414,8 +396,8 @@ p {
 @media screen and (max-width: 414px) {
 
     .container {
-        max-width: 80%;
-        padding: 0px;
+        /* max-width: 80%; */
+        padding: 0px 15px;
     }
     
     .banner {
@@ -451,7 +433,7 @@ p {
         font-family: helvetica;
         color: #707070;
         line-height: 25px;
-        margin: 27px 40px;
+        /* margin: 27px 0px; */
         text-align: center;
     }
     
