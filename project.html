@@ -26,31 +26,35 @@
     </head>
     <body>
         <!-- nav bar -->
+        
         <div class="navigation_bar">
-            <div class="brand_name p_brand_name">Gov<span class="brandname_span">CHECK</span></a></div>
+            <div class="container">
+                <div class="brand_name p_brand_name">Gov<span class="brandname_span">CHECK</span></a></div>
 
-            <!-- mobile close/open bar -->
-            <div class="menu-bar">
-                <span class="bar1"></span>
-                <span class="bar2"></span>
-                <span class="bar3"></span>
+                <!-- mobile close/open bar -->
+                <div class="menu-bar">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <div class="close-bar">
+                    <span style="font-weight: 100;">&times;</span>
+                </div>
+                <!--end mobile close/open bar -->
+    
+                <div class="navigation_links _openMobileLink">
+                    <a href="index.html" class="home">Home</a>
+                    <a href="project.html">Projects</a>
+                    <a href="#">Supervise</a>
+                    <a href="#" id="project_sign_up">Sign up</a>
+                </div>
             </div>
-            <div class="close-bar">
-                <span style="font-weight: 100;">&times;</span>
-            </div>
-            <!--end mobile close/open bar -->
-
-            <div class="navigation_links _openMobileLink">
-                <a href="index.html" class="home">Home</a>
-                <a href="project.html">Projects</a>
-                <a href="#">Supervise</a>
-                <a href="#" id="project_sign_up">Sign up</a>
-            </div>
+            
         </div>
         <!-- end nav bar -->
 
         <!-- project jumbotron -->
-        <div class="project_jumbotron">
+        <div class=" project_jumbotron">
             <div class="project_header_banner">
                 <h1 class="project_heading">Projects</h1>
             </div>
@@ -58,7 +62,7 @@
         <!-- end project jumbotron -->
 
         <!-- project main section -->
-        <div class="project_main">
+        <div class="container project_main">
             <div class="row m-0">
                 <div class="col-12 md m-0 p-0">
                     <div class="search_form">
@@ -270,44 +274,47 @@
 
         <!-- footer -->
         <div class="footer">
-                <div class="row">
-                    <div class="col-12 col-md-8">
-                        <div class="footer_left">
-                            <div class="footer_brandname">
-                                 <img class="footer_logo" src="images/footer_logo.png" alt="footer_logo"> Gov<span class="footer_logo_span">CHECK</span></a>
+            <div class="container">
+                    <div class="row">
+                            <div class="col-12 col-md-8">
+                                <div class="footer_left">
+                                    <div class="footer_brandname">
+                                         <img class="footer_logo" src="images/footer_logo.png" alt="footer_logo"> Gov<span class="footer_logo_span">CHECK</span></a>
+                                    </div>
+                                    <div class="email">
+                                        <form action="#" method="POST">
+                                            <input class="home" type="email" placeholder="Email">
+                                            <button class="submit desktop_button" name="submit"><span class="rotate">&#10148;</span></button>
+                                            <p>Stay in touch with us for updates on GovCHECK</p>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="email">
-                                <form action="#" method="POST">
-                                    <input class="home" type="email" placeholder="Email">
-                                    <button class="submit desktop_button" name="submit"><span class="rotate">&#10148;</span></button>
-                                    <p>Stay in touch with us for updates on GovCHECK</p>
-                                </form>
+                            <div class="col-12 col-md-4">
+                                <div class="row footer_links">
+                                    <div class="col-6 fl_ml">
+                                        <a href="#">Home</a>
+                                        <a href="#">Discovery</a>
+                                        <a href="#">Photos</a>
+                                        <a href="#">Contact</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#">About</a>
+                                        <a href="#">Help</a>
+                                        <a href="#">Privacy</a>
+                                        <a href="#">Login</a>
+                                    </div>
+                                </div>
+                                <div class="footer_social_links">
+                                    <a href="#" class="fa fa-instagram"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-facebook"></span>
+                                    <a href="#" class="fa fa-globe"></a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="row footer_links">
-                            <div class="col-6 fl_ml">
-                                <a href="#">Home</a>
-                                <a href="#">Discovery</a>
-                                <a href="#">Photos</a>
-                                <a href="#">Contact</a>
-                            </div>
-                            <div class="col-6">
-                                <a href="#">About</a>
-                                <a href="#">Help</a>
-                                <a href="#">Privacy</a>
-                                <a href="#">Login</a>
-                            </div>
-                        </div>
-                        <div class="footer_social_links">
-                            <a href="#" class="fa fa-instagram"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-facebook"></span>
-                            <a href="#" class="fa fa-globe"></a>
-                        </div>
-                    </div>
-                </div>
+                        </div> 
+            </div>
+                
             </div>
             <!-- end footer -->
     
