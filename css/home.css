@@ -395,7 +395,8 @@ p {
 
 @media screen and (max-width: 414px) {
 
-    .container 
+    .container {
+        /* max-width: 80%; */
         padding: 0px 15px;
     }
     
