@@ -8,6 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
+    /* margin-top: 82px; */
     height: 80vh;
 }
 
@@ -115,27 +116,7 @@
     margin: 7px 0px;
 }
 
-.footer-class {
-    background-color: black;
-    height:580px;
-    margin-top: 152px;
-}
 
-.email {
-    color: #FFFFFF;
-    border: 0.35px ridge #FFFFFF;
-    font-size: 20px;
-    border-radius: 6px;
-    padding:20px 0px 20px 65px;
-    /* border-style:ridge; */
-    margin: 0px 400px 0px 0px
-}
-
-.touch {
-    color: #CBD0D3;
-    font-size: 20px;
-    margin-top: 15px;
-}
 
 .check {
     color: #61D038;
@@ -416,7 +397,7 @@ p {
 
     .container {
         /* max-width: 80%; */
-        padding: 0px;
+        padding: 0px 15px;
     }
     
     .banner {

@@ -11,13 +11,15 @@ a:hover{text-decoration: none; color: #132409;}
 
 /* NAVIGATION BAR */
 .navigation_bar {
-    background-color: white;
-    z-index: 9999;
     position: fixed;
     height: 82px;
     width: 100%;
-    padding: 24px 145px;
-    box-shadow: 0px .1px 5px rgba(10, 9, 9, 0.4);
+    padding: 24px 0px;
+    box-shadow: 0px 0.1px 5px rgba(10, 9, 9, 0.4);
+    background-color: white;
+    z-index: 99999;
+
+   
 }
 .gov_logo {width: 31px; margin-top: -10px;}
 .brand_name { 
@@ -61,7 +63,7 @@ a:hover{text-decoration: none; color: #132409;}
 /* END OPEN AND CLOSE BAR */
 
 @media screen and (max-width: 1000px){
-    .navigation_bar {height: 77px; padding: 24px 25px; z-index: 2;}
+    .navigation_bar {height: 77px; padding: 24px 24px; z-index: 2;}
     .gov_logo {margin-top: -5px; width: 25px;}
     .brand_name {font-size: 16px; z-index: 3;}
     .brandname_span {font-weight: normal;}
@@ -136,6 +138,8 @@ a:hover{text-decoration: none; color: #132409;}
 .main-section {
     /* background-color: gray; */
     /* height: 35vh; */
+    position: relative;
+    top: 82px;
 }
 /* END MAIN SECTION */
 
