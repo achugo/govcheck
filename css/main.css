@@ -12,11 +12,12 @@ a:hover{text-decoration: none; color: #132409;}
 /* NAVIGATION BAR */
 .navigation_bar {
     background-color: white;
+    z-index: 9999;
     position: fixed;
     height: 82px;
     width: 100%;
     padding: 24px 145px;
-    box-shadow: 0px .1px 5px rgba(112, 112, 112, 0.4);
+    box-shadow: 0px .1px 5px rgba(10, 9, 9, 0.4);
 }
 .gov_logo {width: 31px; margin-top: -10px;}
 .brand_name { 
@@ -133,8 +134,8 @@ a:hover{text-decoration: none; color: #132409;}
 
 /* MAIN SECTION */
 .main-section {
-    background-color: gray;
-    height: 35vh;
+    /* background-color: gray; */
+    /* height: 35vh; */
 }
 /* END MAIN SECTION */
 
@@ -144,7 +145,8 @@ a:hover{text-decoration: none; color: #132409;}
     background-color:black;
     position: relative;
     height: 500px;
-    padding: 90px 145px;
+    padding: 90px 0;
+    bottom: 0;
 }
 .footer_left {color: #61D038; font-family: 'Avenir'; font-size: 20px;}
 .footer_brandname {margin-bottom: 200px;}

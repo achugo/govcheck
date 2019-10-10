@@ -1,5 +1,5 @@
 .container {
-    max-width: 80%;
+    /* max-width: 80%; */
     padding: 0px;
 }
 
@@ -44,7 +44,8 @@
     font-family: helvetica;
     color: #707070;
     line-height: 45px;
-    margin:69px 200px;
+    padding: 2em 0 !important;
+    /* margin:69px 0px; */
 }
 
 .projects {
@@ -208,7 +209,7 @@ p {
 
 @media screen and (max-width: 1920px) {
     .container {
-        max-width: 80%;
+        /* max-width: 80%; */
         padding: 0px;
     }
 
@@ -253,7 +254,7 @@ p {
         font-family: helvetica;
         color: #707070;
         line-height: 45px;
-        margin:69px 150px;
+        /* margin:69px 0px; */
     }
     
     .projects {
@@ -414,7 +415,7 @@ p {
 @media screen and (max-width: 414px) {
 
     .container {
-        max-width: 80%;
+        /* max-width: 80%; */
         padding: 0px;
     }
     
@@ -451,7 +452,7 @@ p {
         font-family: helvetica;
         color: #707070;
         line-height: 25px;
-        margin: 27px 40px;
+        /* margin: 27px 0px; */
         text-align: center;
     }
     
