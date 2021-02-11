@@ -42,7 +42,7 @@
 /* END PROJECT JUMBOTRON */
 
 /* PROJECT MAIN SECTION */
-.project_main {padding: 70px 145px;}
+.project_main {padding: 70px 0px;}
 @media screen and (max-width: 1000px){.project_main {padding: 24px 25px;} .project_heading{font-size: 45px;}}
 
 .search_form {display: block;}
